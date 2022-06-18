@@ -34,17 +34,17 @@
         <!-- O Main faz a parte semântica de criar o corpo do nosso site -->
         <main>
             <!-- O Section faz a parte semântica de criar e separar as sessões do nosso site -->
-            <section>
+            <section class="principal">
                 <!-- A seção do meu site -->
                 <!-- O Article quer dizer q ue estamos criando um trecho do nosso site , que é independente de outros trechos/partes do nosso site -->
-                <article>
+                <article class="subcontainer-principal container">
                     <div>
-                        <img src="foto-perfil.png" alt="Perfil Mulher Negra">
+                        <img src="img/foto-perfil.png" alt="Perfil Mulher Negra">
                     </div>
                         
                     <div>
-                        <h1>Jacira Sousa</h1>
-                        <h2>Desenvolvedora Front-End</h2>
+                        <h1 class="nome completo">Jacira Sousa</h1>
+                        <h2 class="profissao">Desenvolvedora Front-End</h2>
                     </div>
                         
                     <div>
@@ -53,44 +53,44 @@
     
                 </article>
             </section>
-            <article>
+            <article class="container article-lista">
                 <div>
-                    <h3>Formação</h3>
+                    <h3 class="topico-principal">Formação</h3>
                 </div>
-                <div>
+                <div class="lista-item">
                     <ul>
                         <li>
-                            <p>Ciclo Formativo Pretalab</p>
+                            <p class="lista-titulo">Ciclo Formativo Pretalab</p>
                             <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
-                            <p>Descrição do curso</p>
+                            <p class="lista-descricao">Descrição do curso</p>
                         </li>
                         <li>
-                            <p>Ciclo Formativo Pretalab</p>
-                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
-                            <p>Descrição do curso</p>
+                            <p class="lista-titulo">Ciclo Formativo Pretalab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Colégio Ensino</a>
+                            <p class="lista-descricao">Descrição do curso</p>
                         </li>
                     </ul>
                 </div>
             </article>
   
-            <section>
-                <article>
+            <section class="wrapper-portfolio">
+                <article class="container article-lista" >
                     <div>
-                        <h4>Blog</h4>
+                        <h4 class="topico-principal">Blog</h4>
                     </div>
                     <div>
                         <ul>
                             <li>
-                                <p>Mulheres que fazem História</p>
-                                <p>Revelo</p>
+                                <p class="lista-titulo">Mulheres que fazem História</p>
+                                <p class="subtitulo-lista">Revelo</p>
                                 <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local">27 desenvolvedoras brasileiras para se inspirar em 2022</a>
                                 <p>Descrição do artigo</p>
 
                             </li>
                             <li>
-                                <p>Mulheres que fazem História</p>
-                                <p>Revelo</p>
-                                <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local">27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+                                <p class="lista-titulo">Quem Coda BR</p>
+                                <p class="subtitulo-lista">PretaLab</p>
+                                <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
                                 <p>Descrição do artigo</p>
                             </li>
                         </ul>
@@ -100,17 +100,12 @@
             </section>
     
     
-            <section>
-                <article>
-                    
-                </article>
-            </section>
         </main>
         <!-- Rodape -->
         <!-- O Footer faz parte da semântica de criar o rodapé do site -->
-        <footer>
-            <div>
-                <ul>
+        <footer class="footer">
+            <div class="container">
+                <ul id="contato" class="lista-footer">
                     <!-- Aqui temos nossos ícones dentro da nossa lista -->
                     <li><i class="fas fa-envelope-square estilo-icon"></i>guacirita@gmail.com</li>
                     <li><i class="fab fa-linkedin estilo-icon"></i>jacira-sousa-602622241</li>
@@ -119,5 +114,5 @@
             </div>
         </footer>
       
-</body>
+    </body>
 </html>
