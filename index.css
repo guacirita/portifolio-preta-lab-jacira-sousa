@@ -51,8 +51,18 @@
     text-decoration: inherit;
   }
     
-    
-    /*Continuar daqui */
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .cat{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    padding-top: 20vh;
+    padding-bottom: 10px;
+  }
     
   .principal{
    height: 100vh;
@@ -95,13 +105,13 @@
   }
     
   .profissao{
-   color: #C6B5D5;
+   color: #260345;
    height: 60px; /*altura*/
   }
     
   .topico-principal{
    font-size: 36px;
-   color: #ff4dbc;
+   color: #29051b;
   }
     
   .lista-item{
@@ -160,8 +170,6 @@
     text-decoration: none;
     color: white;
   }
-    
-    /*Daqui pra baixo é lição de casa*/
     
   .footer{
    background-color: #724796;
